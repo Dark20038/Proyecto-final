@@ -61,7 +61,7 @@ public class ProcesosProyecto {
                    for (int i = 1; i <= cantidadProductos; i++){
                        System.out.println();
                        System.out.println(guiones);
-                       System.out.println("  Producto " + i +" de ");
+                       System.out.println("  Producto " + i +" de " + cantidadProductos);
                        System.out.println(guiones);
                        
                        System.out.println("  Codigo: ");
@@ -69,7 +69,7 @@ public class ProcesosProyecto {
                        teclado.nextLine();
                        
                        System.out.println("  Nombre: ");
-                       String noombre = teclado.nextLine();
+                       String nombre = teclado.nextLine();
                        
                        System.out.println("  Precio: Q");
                        double precio = teclado.nextDouble();
